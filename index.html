@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII</title>
+
+    <link rel="stylesheet" href="styles.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+<body>
+
+<div class="container">
+
+    <canvas id="canvas1">
+
+
+    </canvas>
+
+    <div class="controls">
+        <label for="resolution" id="resolutionLabel"> Resolution</label>
+        <input type="range" id="resolution" name="resolution" min="1" max="15" value="1">
+    </div>
+    <br/>
+    <br/>
+
+
+    <input type="file" id="uploader"/>
+    <label class="labelUploader" for="uploader">
+        <i class="fas fa-upload"></i> &nbsp; Choose A Photo
+    </label>
+    <br/>
+    <br/>
+
+    <a download="ASCII.jpg" href="" onclick="downloadCanvas(this);">Download </a>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

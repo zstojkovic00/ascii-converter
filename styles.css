@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: black;
+
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#canvas1 {
+    margin-top: 10%;
+    border: 5px solid white;
+    width: 900px;
+    height: 768px;
+}
+
+.controls {
+    display: flex;
+
+}
+
+
+.controls > input {
+    width: 75%;
+}
+
+.controls > label {
+    width: 40%;
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    display: block;
+    background-color: #025bee;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    padding: 18px 0;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.labelUploader {
+    display: block;
+    background-color: #025bee;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    padding: 18px 0;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
